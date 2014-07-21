@@ -1,0 +1,73 @@
+body {
+    padding-top: 30px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.edit_title, .title_button {
+    float:right
+}
+
+text, input {
+    width:90%;
+}
+
+symbol {
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.pink {
+    background: pink;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.aqua {
+    background: aqua;
+}
+
+.blue {
+    background: blue;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    width: 68px;
+    height: 68px;
+    border: 1px solid black;
+    background: white;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.guess, button {
+    width: 70px;
+    height: 70px;
+}
+
+button {
+    color: black;
+}

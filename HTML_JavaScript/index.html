@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Mastermind</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/mastermind.css" rel="stylesheet">
+    </head>
+    <body>
+
+
+        <div id="symbol-container">
+            <table id="symbols">
+
+                <tr>
+                    <td><symbol class="pink"></symbol></td>
+                <td><symbol class="red"></symbol></td>
+                <td><symbol class="yellow"></symbol></td>
+                <td><symbol class="green"></symbol></td>
+                <td><symbol class="aqua"></symbol></td>
+                <td><symbol class="blue"></symbol></td>
+                <!--   <td id="delete" class="delete"><input type="button" value="delete" disabled="true" /></td> -->
+                </tr>
+
+            </table>
+
+            <p></p>
+
+            <table>
+
+                <tbody id="guesses"></tbody>
+                
+            </table>        
+
+        </div>
+
+    <dane row="1" max_rows="8"></dane>
+        
+        <script type='text/javascript' src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+        <script type='text/javascript' src="js/mastermind.js"></script>
+
+    </body>
+</html>
