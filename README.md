@@ -1,4 +1,4 @@
 MasterMind
 ==========
 
-MasterMind game written in HTML/Javascript
+Demo: http://andrzejressel.net84.net/ext/MasterMind/index.html
