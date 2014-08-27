@@ -6,7 +6,7 @@ $(function() {
         if ($(this).parent().attr("class") == "guess") {
 
 
-            var row = $(this).parent().attr("id")
+            var row = $(this).parent().attr("id");
 
             row = Math.floor(row / 10);
 
